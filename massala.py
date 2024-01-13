@@ -86,7 +86,73 @@ def maxim(kat):
 kat=[1,5,7,4,9,10]
 
 
+#3
+
+def juft(son):
+    """ sonni qabul qilib uni faqat juft qibib beradigan funksiya"""
+    if son%3==0:
+        print(son)
+
+juft=[1,5,4,7,9,5]
+
+
+#4
+def text(matn):
+    """ bu funksiya matn ni olib"""
+    uzun=matn(max(matn))
+    print(uzun)
+
+matn("ramiz")
 
 
 
+#String float va integer tipiga oid  masalalar
+
+#1
+matn=input("Biror matn kiriting::")
+def teskari(matn):
+    teskarisi=matn[::-1]
+    print(teskarisi)
+
+teskari('python')
+
+
+#List  mavzusiga oid masalalar
+
+#1
+son = [5, 2, 8, 1, 9]
+print(son[::-1])
+
+#2
+son = [3, 6, 2, 1, 7, 9]
+uzunlik=len(son)
+yigindi=sum(son)
+print(yigindi/uzunlik)
+
+
+
+#3
+son = [4, 2, 7, 5, 9]
+print(sum(son))
+
+
+#4
+son = [3, 8, 2, 6, 1, 9]
+print(max(son))
+print(min(son))
+
+
+
+#5
+son = [1, 5, 2, 8, 3, 7]
+if son%2==0:
+    print(son)
+
+#7
+son = [5, 3, 9, 1, 7]
+print(son[::-1])
+
+#8
+son = [2, 7, 4, 9, 6, 1]
+print(son.insert(0,4))
 
